@@ -1,0 +1,27 @@
+/* Version / Attempt #2 */
+
+.board {
+  position: relative;
+  margin: 50px auto 10px auto;
+  width: 600px;
+  height: 400px;
+  border: solid grey 2px;
+  border-radius: 2px;
+  background-color: lightblue;
+}
+.dot {
+  position: absolute;
+  width: 2%;
+  height: 3%;
+  background-color: brown;
+  border: 1px solid #ffffff;
+  z-index: 2;
+}
+
+.food {
+  position: absolute;
+  width: 2%;
+  height: 3%;
+  background-color: green;
+  z-index: 1;
+}
